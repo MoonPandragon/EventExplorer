@@ -11,6 +11,8 @@
 		3236AD842A78E31600313478 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236AD832A78E31600313478 /* ContentView.swift */; };
 		3236AD862A78E31700313478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236AD852A78E31700313478 /* Assets.xcassets */; };
 		3236AD892A78E31700313478 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236AD882A78E31700313478 /* Preview Assets.xcassets */; };
+		3236AD902A79782000313478 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236AD8F2A79782000313478 /* WebView.swift */; };
+		3236AD962A7A4BF400313478 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3236AD952A7A4BF400313478 /* WebViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		3236AD832A78E31600313478 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3236AD852A78E31700313478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3236AD882A78E31700313478 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3236AD8F2A79782000313478 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		3236AD952A7A4BF400313478 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		3236AD972A7A54BB00313478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		3236AD802A78E31600313478 /* EventExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				3236AD972A7A54BB00313478 /* Info.plist */,
 				3236AD812A78E31600313478 /* EventExplorerApp.swift */,
 				3236AD832A78E31600313478 /* ContentView.swift */,
+				3236AD8F2A79782000313478 /* WebView.swift */,
+				3236AD952A7A4BF400313478 /* WebViewModel.swift */,
 				3236AD852A78E31700313478 /* Assets.xcassets */,
 				3236AD872A78E31700313478 /* Preview Content */,
 			);
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3236AD902A79782000313478 /* WebView.swift in Sources */,
 				3236AD842A78E31600313478 /* ContentView.swift in Sources */,
+				3236AD962A7A4BF400313478 /* WebViewModel.swift in Sources */,
 				3236AD822A78E31600313478 /* EventExplorerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +280,7 @@
 				DEVELOPMENT_TEAM = 2PG95MD8PS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +310,7 @@
 				DEVELOPMENT_TEAM = 2PG95MD8PS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventExplorer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
